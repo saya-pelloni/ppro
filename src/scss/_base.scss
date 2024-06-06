@@ -41,6 +41,18 @@ video {
 
 body {
   background-image: url(/src/img/autre-siteweb/fond-img.png);
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.title {
+  width: 25%;
+  padding-left: 50px;
 }
 
 /* ====================================
