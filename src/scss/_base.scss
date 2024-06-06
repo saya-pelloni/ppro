@@ -44,15 +44,57 @@ body {
   background-repeat: no-repeat;
 }
 
+header {
+  padding-top: 30px;
+}
+
 nav {
   display: flex;
   color: white;
+  justify-content: end;
   justify-content: space-around;
 }
 
 .title {
   width: 25%;
   padding-left: 50px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+.mini-logo-mermaid {
+  width: 250px;
+
+  margin-top: 140px;
+  transition-duration: 0.3s;
+}
+
+.mini-logo-pirate {
+  width: 250px;
+
+  margin-top: 140px;
+  transition-duration: 0.3s;
+}
+
+.mini-logo-kraken {
+  width: 250px;
+
+  margin-top: 140px;
+  transition-duration: 0.3s;
+}
+
+.mini-logo-mermaid:hover {
+  width: 300px;
+}
+
+.mini-logo-pirate:hover {
+  width: 300px;
+}
+
+.mini-logo-kraken:hover {
+  width: 300px;
 }
 
 /* ====================================
