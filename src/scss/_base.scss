@@ -65,36 +65,65 @@ nav {
   justify-content: center;
 }
 .mini-logo-mermaid {
-  width: 250px;
-
+  width: 200px;
   margin-top: 140px;
   transition-duration: 0.3s;
 }
 
 .mini-logo-pirate {
-  width: 250px;
-
+  width: 220px;
   margin-top: 140px;
   transition-duration: 0.3s;
 }
 
 .mini-logo-kraken {
-  width: 250px;
-
+  width: 270px;
   margin-top: 140px;
   transition-duration: 0.3s;
 }
 
 .mini-logo-mermaid:hover {
-  width: 300px;
+  width: 250px;
 }
 
 .mini-logo-pirate:hover {
-  width: 300px;
+  width: 250px;
 }
 
 .mini-logo-kraken:hover {
   width: 300px;
+}
+
+.other-nav {
+  margin-top: 70px;
+  transition-duration: 0.3s;
+}
+
+.other-nav:hover {
+  color: #f4aa1f;
+}
+
+.alcool {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.history-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 35px;
+}
+
+.history {
+  display: flex;
+  text-align: left;
+  margin-left: 250px;
+  margin-right: 250px;
+  color: white;
+  padding-top: 20px;
 }
 
 /* ====================================
