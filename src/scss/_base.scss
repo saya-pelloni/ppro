@@ -67,11 +67,23 @@ nav {
 
 .alcool {
   display: flex;
-  color: white;
   justify-content: center;
   padding-top: 100px;
+  animation: alcool 2s ease infinite;
+  color: linear-gradient(270deg, #dbff00, #06ffff, #df03f2);
 }
 
+@keyframes alcool {
+  0% {
+    color: #dbff00;
+  }
+  50% {
+    color: #06ffff;
+  }
+  100% {
+    color: #df03f2;
+  }
+}
 .btn {
   border-radius: 5px;
   width: fit-content;
@@ -112,6 +124,7 @@ nav {
   font-weight: 400;
   line-height: normal;
 }
+
 /* ====================================
 // base rules
 // ==================================== */
