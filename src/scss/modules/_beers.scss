@@ -1,0 +1,30 @@
+.beers-blonde {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(/src/img/autre-siteweb/fond-blonde.png);
+  padding: 70px;
+}
+
+h3 {
+  color: white;
+}
+
+.beers-bottle {
+  display: flex;
+  width: 590px;
+  margin-left: 280px;
+  margin-top: -530px;
+}
+
+.beers-price {
+  display: flex;
+  justify-content: end;
+}
+
+.beers-information {
+  margin-bottom: 30px;
+}
+
+.beers-ingredients {
+  padding-top: 170px;
+}
