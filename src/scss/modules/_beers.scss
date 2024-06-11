@@ -5,15 +5,14 @@
   padding: 70px;
 }
 
-h3 {
-  color: white;
-}
-
 .beers-bottle {
   display: flex;
   width: 590px;
   margin-left: 280px;
   margin-top: -530px;
+  width: 605px;
+  height: 619px;
+  flex-shrink: 0;
 }
 
 .beers-price {
@@ -23,8 +22,56 @@ h3 {
 
 .beers-information {
   margin-bottom: 30px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .beers-ingredients {
-  padding-top: 170px;
+  padding-top: 150px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.beers-information-ipa {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.beers-ingredients-ipa {
+  padding-top: 150px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.beers-brown {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(/src/img/autre-siteweb/fond-brune.png);
+  padding: 70px;
+  padding-top: 10px;
+}
+
+.beers-ipa {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(/src/img/autre-siteweb/fond-ipa.png);
+  padding: 70px;
+  padding-top: 10px;
 }
