@@ -126,16 +126,12 @@ nav {
   line-height: normal;
 }
 
-strong {
-  color: #df03f2;
-}
-
 .text-invisible {
-  opacity: 1;
-  transition: 1s ease;
+  opacity: 0;
+  transition: 1.2s ease;
 }
 
-&.text-invisible {
+.text-invisible:hover {
   opacity: 1;
 }
 
