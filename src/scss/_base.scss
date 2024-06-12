@@ -48,6 +48,11 @@ header {
   padding-top: 30px;
 }
 
+footer {
+  margin-top: 90px;
+  padding: 50px;
+}
+
 nav {
   display: flex;
   color: white;
@@ -89,7 +94,6 @@ nav {
   border-radius: 5px;
   width: fit-content;
 }
-
 .blonde-title {
   margin-top: 70px;
   margin-bottom: 20px;
@@ -135,6 +139,35 @@ nav {
   opacity: 1;
 }
 
+.place {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 60px;
+}
+
+.link-web {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conditions {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* ====================================
 // base rules
 // ==================================== */
