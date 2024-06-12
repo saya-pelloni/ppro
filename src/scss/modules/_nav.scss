@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  color: white;
+  justify-content: end;
+  justify-content: space-around;
+}
+
+.nav-beers-colors:hover {
+  color: #f4aa1f;
+  cursor: pointer;
+}
+
+.nav-history-colors:hover {
+  color: #f4aa1f;
+  cursor: pointer;
+}
+
+.nav-point-colors:hover {
+  color: #7e06b7;
+  cursor: pointer;
+}
+
+.nav-shop-colors:hover {
+  color: #d75b3e;
+  cursor: pointer;
+}
+
+.nav-contact-colors:hover {
+  color: #7e06b7;
+  cursor: pointer;
+}
