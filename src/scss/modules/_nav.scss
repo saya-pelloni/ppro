@@ -3,6 +3,11 @@ nav {
   color: white;
   justify-content: end;
   justify-content: space-around;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .nav-beers-colors:hover {
@@ -28,4 +33,16 @@ nav {
 .nav-contact-colors:hover {
   color: #7e06b7;
   cursor: pointer;
+}
+
+.nav-first-newsletter:hover {
+  color: #f4aa1f;
+}
+
+.nav-first-conexion:hover {
+  color: #d75b3e;
+}
+
+.nav-first-shop:hover {
+  color: #7e06b7;
 }
