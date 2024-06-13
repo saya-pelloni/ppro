@@ -1,14 +1,71 @@
-.button {
+.button-blonde {
   border-radius: 13px;
   border: 1px solid #000;
   background: #e0970d;
   padding: 17px;
   margin-left: 990px;
-  transition-property: background-color;
   transition-duration: 0.3s;
   box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.button-brown {
+  border-radius: 13px;
+  border: 1px solid #000;
+  background: #c04427;
+  padding: 17px;
+  margin-left: 990px;
+  transition-duration: 0.3s;
+  box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.button-ipa {
+  color: #ffffff;
+  border-radius: 13px;
+  border: 1px solid #ffffff;
+  background: #670197;
+  padding: 17px;
+  margin-left: 990px;
+  transition-duration: 0.3s;
+  box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .button-shop {
-  color: white;
+  color: #000;
+  border-radius: 13px;
+  border: 1px solid #000;
+  background: #ffffff;
+  padding: 17px;
+  margin-left: 990px;
+  transition-duration: 0.3s;
+  box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.25);
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.button-shop:hover {
+  font-size: 15px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: #000000;
+}
+
+.button-ipa:hover {
+  font-size: 15px;
+  color: #dbff00;
+  border: 1px solid #dbff00;
+}
+
+.button-blonde:hover {
+  font-size: 15px;
+  color: #df03f2;
+  border: 1px solid #df03f2;
+}
+
+.button-brown:hover {
+  font-size: 15px;
+  color: #06ffff;
+  border: 1px solid #06ffff;
 }
