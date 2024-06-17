@@ -1,84 +1,25 @@
-.beers-bottle {
-  display: flex;
-  width: 590px;
-  margin-left: 280px;
-  margin-top: -490px;
-  width: 605px;
-  height: 619px;
-  flex-shrink: 0;
-}
-
-.beers-information {
-  margin-bottom: 10px;
-  margin-top: -240px;
-  color: #000;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.brown-beers-information {
-  margin-bottom: 10px;
-  margin-top: -140px;
-  color: #000;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.beers-ingredients {
-  padding-top: 190px;
-  color: #000;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.beers-information-ipa {
-  margin-top: -150px;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.beers-ingredients-ipa {
-  margin-top: 120px;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .beers-brown {
   display: flex;
   background-repeat: no-repeat;
   background-image: url(/src/img/autre-siteweb/fond-brune.png);
-  padding: 70px;
-  padding-top: 10px;
+  padding-left: 70px;
+  margin-top: -60px;
+  padding-bottom: 120px;
 }
 
 .beers-ipa {
   display: flex;
   background-repeat: no-repeat;
   background-image: url(/src/img/autre-siteweb/fond-ipa.png);
-  padding: 70px;
-  padding-top: 10px;
+  padding-left: 70px;
+  padding-bottom: 120px;
+  margin-top: -60px;
 }
 
 .beers-blonde {
   display: flex;
   background-repeat: no-repeat;
   background-image: url(/src/img/autre-siteweb/fond-blonde.png);
-  padding: 50px;
+  padding-left: 70px;
+  padding-bottom: 120px;
 }

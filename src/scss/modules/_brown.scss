@@ -36,3 +36,23 @@
   fill: #c04427;
   border-radius: 6px;
 }
+
+.brown-beers-information {
+  margin-bottom: 10px;
+  margin-top: -150px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brown-beers-bottle {
+  display: flex;
+  margin-left: 280px;
+  margin-top: -380px;
+  width: 605px;
+  height: 619px;
+  flex-shrink: 0;
+}
