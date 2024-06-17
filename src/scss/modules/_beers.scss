@@ -2,14 +2,15 @@
   display: flex;
   width: 590px;
   margin-left: 280px;
-  margin-top: -550px;
+  margin-top: -480px;
   width: 605px;
   height: 619px;
   flex-shrink: 0;
 }
 
 .beers-information {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: -260px;
   color: #000;
   font-family: Helvetica;
   font-size: 18px;
@@ -68,5 +69,5 @@
   display: flex;
   background-repeat: no-repeat;
   background-image: url(/src/img/autre-siteweb/fond-blonde.png);
-  padding: 70px;
+  padding: 50px;
 }
