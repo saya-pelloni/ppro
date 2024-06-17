@@ -30,20 +30,21 @@
                 alt="Logo de la marque"
               />
             </h1>
-          </div>
-          <div class="container">
-            <div class="col-8">
-              <div class="nav">
-                <nav>
-                  <select name="langage-button" id="nav">
-                    <option value="nav">FR</option>
-                    <option value="nav">DE</option>
-                    <option value="nav">EN</option>
-                  </select>
-                  <p class="nav-first-newsletter">Newsletter</p>
-                  <p class="nav-first-conexion">Connexion</p>
-                  <p class="nav-first-shop">Panier</p>
-                </nav>
+
+            <div class="container">
+              <div class="col-8">
+                <div class="nav">
+                  <nav>
+                    <select name="langage-button" id="nav">
+                      <option value="nav">FR</option>
+                      <option value="nav">DE</option>
+                      <option value="nav">EN</option>
+                    </select>
+                    <p class="nav-first-newsletter">Newsletter</p>
+                    <p class="nav-first-conexion">Connexion</p>
+                    <p class="nav-first-shop">Panier</p>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@
           <div class="col-6">
             <div class="logos">
               <div class="mini-logo-mermaid">
-                <a href="blonde-title">
+                <a href="#linke-blonde-title">
                   <img
                     src="img/personnages/sirene-jaune.png"
                     alt="mini image de la sirene à deux têtes"
@@ -64,16 +65,18 @@
                 </a>
               </div>
               <div class="mini-logo-pirate">
-                <img
-                  src="img/personnages/pirate-rouge.png"
-                  alt="mini image du pirate skelette"
-                />
+                <a href="#linke-brown-title">
+                  <img
+                    src="img/personnages/pirate-rouge.png"
+                    alt="mini image du pirate skelette"
+                /></a>
               </div>
               <div class="mini-logo-kraken">
-                <img
-                  src="img/personnages/kraken-violet.png"
-                  alt="mini image du kraken"
-                />
+                <a href="#linke-ipa-title">
+                  <img
+                    src="img/personnages/kraken-violet.png"
+                    alt="mini image du kraken"
+                /></a>
               </div>
             </div>
           </div>
@@ -84,11 +87,19 @@
           <div class="col-8">
             <div class="other-nav">
               <nav>
-                <p class="nav-beers-colors">Nos Bières</p>
-                <p class="nav-history-colors">Notre Histoire</p>
-                <p class="nav-shop-colors">Shop</p>
+                <p class="nav-beers-colors">
+                  <a href="#linke-blonde-title">Nos Bières</a>
+                </p>
+                <p class="nav-history-colors">
+                  <a href="#history-title"> Notre Histoire</a>
+                </p>
+                <p class="nav-shop-colors">
+                  <a href="#linke-blonde-title">Shop</a>
+                </p>
                 <p class="nav-point-colors">Point de Vente</p>
-                <p class="nav-contact-colors">Contact</p>
+                <p class="nav-contact-colors">
+                  <a href="#linke-contact"></a>Contact
+                </p>
               </nav>
             </div>
           </div>
@@ -98,7 +109,7 @@
             </div>
           </div>
           <div class="col-10">
-            <div class="history-title">
+            <div class="history-title" id="history-title">
               <h2>“Le trésor des mers, sans l'ivresse des vagues !”</h2>
             </div>
             <div class="history">
@@ -130,13 +141,17 @@
           <div class="col">
             <div class="beers-blonde">
               <div class="blonde">
-                <h3 class="blonde-title">Blonde</h3>
+                <h3 class="blonde-title" id="linke-blonde-title">La Blonde</h3>
                 <div class="the-price">
                   <p class="blonde-price">Prix à l'unité</p>
                   <div class="counter-container">
-                    <button class="btn-decrement" id="decrement">-</button>
+                    <button class="blonde-btn-decrement" id="decrement">
+                      -
+                    </button>
                     <span class="counter" id="counter">0</span>
-                    <button class="btn-decrement" id="increment">+</button>
+                    <button class="blonde-btn-decrement" id="increment">
+                      +
+                    </button>
                   </div>
                   <p class="blonde-the-price">4,60</p>
                 </div>
@@ -174,21 +189,38 @@
                 <button class="button-blonde">Ajouter au Panier</button>
               </div>
             </div>
-
             <div class="beers-brown">
               <div class="brown">
-                <h3 class="brown-title">La Brune</h3>
-                <p class="brown-the-price">4,60</p>
-                <div class="counter-container">
+                <h3 class="brown-title" id="linke-brown-title">La Brune</h3>
+                <div class="the-price">
                   <p class="brown-price">Prix à l'unité</p>
-                  <button class="btn-decrement" id="decrement">-</button>
-                  <span class="counter" id="counter">0</span>
-                  <button class="btn-decrement" id="increment">+</button>
+                  <div class="counter-container">
+                    <button class="brown-btn-decrement" id="decrement">
+                      -
+                    </button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="brown-btn-decrement" id="increment">
+                      +
+                    </button>
+                  </div>
+                  <p class="brown-the-price">4,60</p>
+                </div>
+                <div class="the-price">
+                  <p class="brown-price">Prix au pack de 4</p>
+                  <div class="counter-container">
+                    <button class="brown-btn-decrement" id="decrement">
+                      -
+                    </button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="brown-btn-decrement" id="increment">
+                      +
+                    </button>
+                  </div>
+                  <p class="brown-the-price">16 CHF</p>
                 </div>
                 <div class="text-invisible">
-                  <div class="cl"><strong>en verre de 33 cl</strong></div>
-                  <br />
-                  <p class="beers-information">
+                  <p class="brown-beers-information">
+                    <strong>en verre de 33 cl</strong> <br />
                     “Dans les récits marins, seuls les pirates squelettes <br />
                     s'accordent le privilège des bières rousses. Réunis dans
                     <br />
@@ -211,21 +243,31 @@
                 <button class="button-brown">Ajouter au Panier</button>
               </div>
             </div>
-
             <div class="beers-ipa">
               <div class="ipa">
-                <h3 class="ipa-title">La IPA</h3>
-                <p class="ipa-the-price">4,60</p>
-                <div class="counter-container">
+                <h3 class="ipa-title" id="linke-ipa-title">La IPA</h3>
+                <div class="the-price">
                   <p class="ipa-price">Prix à l'unité</p>
-                  <button class="btn-decrement" id="decrement">-</button>
-                  <span class="counter" id="counter">0</span>
-                  <button class="btn-decrement" id="increment">+</button>
+                  <div class="counter-container">
+                    <button class="ipa-btn-decrement" id="decrement">-</button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="ipa-btn-decrement" id="increment">+</button>
+                  </div>
+                  <p class="ipa-the-price">4,60</p>
+                </div>
+                <div class="the-price">
+                  <p class="ipa-price">Prix au pack de 4</p>
+                  <div class="counter-container">
+                    <button class="ipa-btn-decrement" id="decrement">-</button>
+                    <span class="counter" id="counter">0</span>
+                    <button class="ipa-btn-decrement" id="increment">+</button>
+                  </div>
+                  <p class="ipa-the-price">16 CHF</p>
                 </div>
                 <div class="text-invisible">
-                  <div class="cl-ipa"><strong>en verre de 33 cl</strong></div>
                   <br />
                   <p class="beers-information-ipa">
+                    <strong>en verre de 33 cl</strong> <br />
                     “Dans les récits marins, seule la légendaire créature du
                     <br />
                     Kraken peut se délecter d'une bière IPA. Au cœur des <br />
@@ -244,7 +286,6 @@
                     alt=""
                   />
                 </div>
-
                 <button class="button-ipa">Ajouter au Panier</button>
               </div>
             </div>
@@ -269,7 +310,7 @@
         <div class="row">
           <div class="col-12">
             <img class="title" src="img/bouteilles/logo_BLANC.png" alt="" />
-            <p class="place">
+            <p class="place" id="linke-contact">
               <strong>Adresse de la Brasserie:</strong> <br />
               Licorne Sylvain Megroni, Chemin du Lac 2 CH-1470 Estavayer-Le-Lac
             </p>
@@ -290,7 +331,10 @@
             />
 
             <div class="link-web">
-              <p>www.brasserie-licorne.ch</p>
+              <div class="little-informations">
+                <p>www.brasserie-licorne.ch</p>
+                <p>© 2024 Licorne. Tous droits réservés.</p>
+              </div>
             </div>
           </div>
         </div>

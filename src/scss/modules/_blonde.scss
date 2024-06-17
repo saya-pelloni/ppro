@@ -17,6 +17,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  scroll-behavior: smooth;
 }
 
 .blonde-the-price {
@@ -28,4 +29,14 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 45px;
+}
+
+.blonde-btn-decrement {
+  background-color: #e0970d;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  fill: #e0970d;
+  border-radius: 6px;
 }
