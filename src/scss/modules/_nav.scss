@@ -1,13 +1,12 @@
 nav {
-  display: flex;
   color: white;
-  justify-content: end;
-  justify-content: space-around;
   font-family: Helvetica;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-beers-colors:hover {
@@ -48,4 +47,9 @@ nav {
 .nav-first-shop:hover {
   color: #7e06b7;
   text-decoration: underline;
+}
+
+.nav-information nav {
+  margin-top: -50px;
+  margin-left: 300px;
 }
